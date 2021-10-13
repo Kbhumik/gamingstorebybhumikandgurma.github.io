@@ -1,0 +1,431 @@
+<html>
+<title>B&G gaming</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bg.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "monospace;", sans-serif;}
+body, html {
+  height: 100%;
+  color: white;
+  line-height: 1.8;
+  background-color: #161A29;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+
+
+as{font-size: 14px;}
+
+.bg-wide {letter-spacing: 10px;}
+.bg-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+  .video-container {
+    height: 300px;
+    width: 300px;
+    position: cen;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.video-container video {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;}
+.ffr {
+	background-color: black; 
+}
+h4{text-align: center}
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="bg-top">
+  <div class="bg-bar" id="myNavbar">
+    <a class="bg-bar-item bg-button bg-hover-black bg-hide-medium bg-hide-large bg-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="bg-bar-item bg-button">HOME</a>
+    <a href="#about" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#glimpses" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-th"></i> GLIMPSES</a>
+    <a href="#portfolio" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-th"></i> PRODUCTS</a>
+    <a href="#contact" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#glimpses" class="bg-bar-item bg-button bg-hide-small bg-right bg-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bg-bar-block bg-white bg-hide bg-hide-large bg-hide-medium">
+    <a href="#about" class="bg-bar-item bg-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#products" class="bg-bar-item bg-button" onclick="toggleFunction()">PRODUCTS</a>
+    <a href="#contact" class="bg-bar-item bg-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="video-container">
+    <video autoplay muted loop>
+        <source src="movie.mp4" type="video/mp4" />
+    </video>
+   
+  
+
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="bg-content bg-container bg-padding-64" id="about">
+  <br><br><br><br><br>
+  <p class="bg-center" id="as">
+ <span class="bg-xxlarge bg-text-white bg-wide">About us</span><br>
+  	<em>B&G gamers is best gaming store in town</em></p>
+  <p> b&G games has the best deals and discounts for you to buy games online. Get access to the latest collection of gaming consoles and accessories. You can now buy games online at the lowest rates. Your one stop destination gaming that lets you pre order games online.
+we havebeen working since 20 yearS we are a brand you can trust for most authentic and best games
+you can trust us for your gaming devices qw  are the most known name for games when ever free just drop by
+
+
+   Lets get gaming !</p>
+  <div class="bg-row">
+    <div class="bg-col m6 bg-center bg-padding-large">
+      <p><b><i class="fa fa-user bg-margin-right"></i>BY Bhumik And Gurman</b></p><br>
+      <img src="logo.jpeg" class="bg-round bg-image bg-opacity bg-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="bg-col m6 bg-hide-small bg-padding-large" id="as">
+      <p>A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool.[1] Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements. However, the distinction is not clear-cut, and many games are also considered to be work (such as professional players of spectator sports or games) or art (such as jigsaw puzzles or games involving an artistic layout such as Mahjong, solitaire, or some video games
+     Key components of games are goals, rules, challenge, and interaction. Games generally involve mental or physical stimulation, and often both. Many games help develop practical skills, serve as a form of exercise, or otherwise perform an educational, simulational, or psychological role.</p>
+    </div>
+  </div>
+  <p class="bg-large bg-center bg-padding-16">We are really good at:</p>
+  <p class="bg-wide"><i class="fa fa-camera"></i>GAME DEVLOPPMENT</p>
+  <div class="bg-light-grey">
+    <div class="bg-container bg-padding-small bg-dark-grey bg-center" style="width:98%"> 100%</div>
+  </div>
+  <p class="bg-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="bg-light-grey">
+    <div class="bg-container bg-padding-small bg-dark-grey bg-center" style="width:95%">100%</div>
+  </div>
+  <p class="bg-wide"><i class="fa fa-photo"></i>Graphics Design</p>
+  <div class="bg-light-grey">
+    <div class="bg-container bg-padding-small bg-dark-grey bg-center" style="width:97%">97%</div>
+  </div>
+</div>
+
+<div class="bg-row bg-center bg-dark-grey bg-padding-16" id="ffr">
+  <div class="bg-quarter bg-section">
+    <span class="bg-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="bg-quarter bg-section">
+    <span class="bg-xlarge">8+</span><br>
+    Projects Done
+  </div>
+  <div class="bg-quarter bg-section">
+    <span class="bg-xlarge">899+</span><br>
+    Happy Clients
+  </div>
+  <div class="bg-quarter bg-section">
+    <span class="bg-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+
+</div></div>
+<div class="bgimg-2 bg-display-container bg-opacity-min">
+  
+  </div>
+</div>
+<div id="glimpses">
+<h2 style="text-align: center;">Glimpses</h2>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="g.jpeg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="g1.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="g2.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4/ 4</div>
+  <img src="g3.jpg" style="width:100%">
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="bg-content bg-container bg-padding-64" id="portfolio">
+   <span class="bg-xxlarge bg-text-white bg-wide" style="text-align: center;"> Our work</span><br>
+  <p class="bg-center">.<br><h3 style="text-align: center;"></style>Click on the images to  explore them</h3></em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="bg-row-padding bg-center">
+    <div class="bg-col m3">
+      <img src="p1.jpeg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="Fortnite :9999Rs =>>>>Fortnite is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine: ..">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p2.jpeg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="Red Dead Redemption :5566Rs=>>>>Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead Redemption.">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p3.jpeg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="GTA 5 :7790Rs
+      =>>>>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p4.jpg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="CYBERPUNK :9990Rs =>>>>Cyberpunk 2077 is an action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe">
+    </div>
+  </div>
+
+  <div class="bg-row-padding bg-center bg-section">
+    <div class="bg-col m3">
+      <img src="p5.jpg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="fifa22 :5566Rs=>>>FIFA 22 is an association football simulation video game published by Electronic Arts as part of the FIFA series. It is the 29th installment in the FIFA series, and was released worldwide on 1 October 2021. Kylian Mbappé is the cover athlete for the second consecutive year">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p6.jpg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="efootball22 :5555Rs=>>>eFootball PES 2020 is a football simulation video game developed by PES Productions and published by Konami for Microsoft Windows, PlayStation 4, Xbox One, Android and IOS">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p7.jpg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="The Last Of us Part2:23344Rs=>>>The Last of Us Part II is a 2020 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for the PlayStation 4.">
+    </div>
+
+    <div class="bg-col m3">
+      <img src="p8.jpg" style="width:100%" onclick="onClick(this)" class="bg-hover-opacity" alt="apex legends :1245Rs=>>Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts. It was released for Microsoft Windows, PlayStation 4, and Xbox One in February 2019, and for Nintendo Switch in March 2021.">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="bg-modal bg-black" onclick="this.style.display='none'">
+  <span class="bg-button bg-large bg-black bg-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="bg-modal-content bg-animate-zoom bg-center bg-transparent bg-padding-64">
+    <img id="img01" class="bg-image">
+    <p id="caption" class="bg-opacity bg-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 bg-display-container bg-opacity-min">
+  <div class="bg-display-middle">
+     <span class="bg-xxlarge bg-text-white bg-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="bg-content bg-container bg-padding-64" id="contact">
+  <h3 class="bg-center">OUR STORE LOCATIONS</h3>
+  <p class="bg-center"><em>We would love your feedback!</em></p>
+
+  <div class="bg-row bg-padding-32 bg-section">
+    
+    <div class="bg-col m8 bg-panel">
+      <div class="bg-large bg-margin-bottom">
+        <i class="fa fa-map-marker fa-fw bg-hover-text-black bg-xlarge bg-margin-right"></i> DELHI INDIA<br>
+        <i class="fa fa-phone fa-fw bg-hover-text-black bg-xlarge bg-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw bg-hover-text-black bg-xlarge bg-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="bg-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="bg-half">
+            <input class="bg-input bg-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="bg-half">
+            <input class="bg-input bg-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="bg-input bg-border" type="text" placeholder="Message" required name="Message">
+        <button class="bg-button bg-black bg-right bg-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-center bg-black bg-padding-64 bg-opacity bg-hover-opacity-off">
+  <a href="#home" class="bg-button bg-light-grey"><i class="fa fa-arrow-up bg-margin-right"></i>To the top</a>
+  <div class="bg-xlarge bg-section">
+    <i class="fa fa-facebook-official bg-hover-opacity"></i>
+    <i class="fa fa-instagram bg-hover-opacity"></i>
+    <i class="fa fa-snapchat bg-hover-opacity"></i>
+    <i class="fa fa-pinterest-p bg-hover-opacity"></i>
+    <i class="fa fa-twitter bg-hover-opacity"></i>
+    <i class="fa fa-linkedin bg-hover-opacity"></i>
+  </div>
+  <p>Powered by Bhumik and Gurman all rights reserved!!  intro video credits.saksham nagpal</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "bg-bar" + " bg-card" + " bg-animate-top" + " bg-white";
+    } else {
+        navbar.className = navbar.className.replace(" bg-card bg-animate-top bg-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("bg-show") == -1) {
+        x.className += " bg-show";
+    } else {
+        x.className = x.className.replace(" bg-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

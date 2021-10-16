@@ -6,20 +6,20 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "monospace;", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif;}
 body, html {
   height: 100%;
   color: white;
   line-height: 1.8;
-  background-color: #161A29;
-}
+background: url('bg1.jpg');
+background-size: 200% 200%;}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-blend-mode: lighten;
 }
 
 /* First image (Logo. Full height) */
@@ -117,6 +117,10 @@ img {vertical-align: middle;}
   object-fit: cover;
   z-index: 0;
 }
+h2{text-align:center;
+background-image:url('bg2.jpg');
+
+}
 
 /* Just styling the content of the div, the *magic* in the previous rules */
 .video-container .caption {
@@ -144,7 +148,9 @@ h4{text-align: center}
     <a href="#glimpses" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-th"></i> GLIMPSES</a>
     <a href="#products" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-th"></i> PRODUCTS</a>
     <a href="#contact" class="bg-bar-item bg-button bg-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#glimpses" class="bg-bar-item bg-button bg-hide-small bg-right bg-hover-red">
+    
+    
+    
       <i class="fa fa-search"></i>
     </a>
   </div>
@@ -172,7 +178,7 @@ h4{text-align: center}
 <div class="bg-content bg-container bg-padding-64" id="about">
   <br><br><br><br><br>
   <p class="bg-center" id="as">
- <span class="bg-xxlarge bg-text-white bg-wide">About us</span><br>
+ <span><h2>About us</span><br></h2>
   	<em>B&G gamers is best gaming store in town</em></p>
   <p> b&G games has the best deals and discounts for you to buy games online. Get access to the latest collection of gaming consoles and accessories. You can now buy games online at the lowest rates. Your one stop destination gaming that lets you pre order games online.
 we havebeen working since 20 yearS we are a brand you can trust for most authentic and best games
@@ -192,7 +198,7 @@ you can trust us for your gaming devices qw  are the most known name for games w
      Key components of games are goals, rules, challenge, and interaction. Games generally involve mental or physical stimulation, and often both. Many games help develop practical skills, serve as a form of exercise, or otherwise perform an educational, simulational, or psychological role.</p>
     </div>
   </div>
-  <p class="bg-large bg-center bg-padding-16">We are really good at:</p>
+ <span><h2>We are really good at:></span></h2>
   <p class="bg-wide"><i class="fa fa-camera"></i>GAME DEVLOPPMENT</p>
   <div class="bg-light-grey">
     <div class="bg-container bg-padding-small bg-dark-grey bg-center" style="width:98%"> 100%</div>
@@ -231,9 +237,10 @@ you can trust us for your gaming devices qw  are the most known name for games w
   
   </div>
 </div>
-<div id="glimpses">
-<h2 style="text-align: center;">Glimpses</h2>
+<div id="glimpses">   <div class="bg-content bg-container bg-padding-64" >
 
+<h2 style="text-align: center;">Glimpses</h2>
+</div>
 <div class="slideshow-container">
 <div class="mySlides fade">
   <div class="numbertext">1 / 4</div>
@@ -292,8 +299,8 @@ function showSlides() {
 </script>
 
 <div class="bg-content bg-container bg-padding-64" id="products">
-   <span class="bg-xxlarge bg-text-white bg-wide" style="text-align: center;"> Our work</span><br>
-  <p class="bg-center">.<br><h3 style="text-align: center;"></style>Click on the images to  explore them</h3></em></p><br>
+   <span style="text-align: center;"> <h2>Our work</span><br></h2>
+  <p class="bg-center"><h3 style="text-align: center;"></style>Click on the images to  explore them</h3></em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="bg-row-padding bg-center">
@@ -346,7 +353,7 @@ function showSlides() {
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 bg-display-container bg-opacity-min">
   <div class="bg-display-middle">
-     <span class="bg-xxlarge bg-text-white bg-wide">CONTACT</span>
+     <span><h2>CONTACT</h2></span>
   </div>
 </div>
 
